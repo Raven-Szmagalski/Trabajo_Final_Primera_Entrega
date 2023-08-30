@@ -1,0 +1,77 @@
+.news-box {
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+
+}
+
+.news-box:hover {
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+
+.news-image {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.selected-topic {
+    background-color: lightgray; 
+}
+
+.container {
+    margin-bottom: 3cm;
+}
+
+.news-title {
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+
+.bordered-news {
+    border: 1px solid #ddd; /* You can adjust the color and size of the border */
+}
+
+.educacion:hover {
+    background-color:rgba(11, 5, 103, 0.419); 
+}
+
+.universidad:hover {
+    background-color:rgb(139, 166, 248); 
+}
+
+.cultura:hover {
+    background-color:rgba(226, 43, 43, 0.681); 
+}
+
+.alumnos:hover {
+    background-color:rgba(0, 112, 17, 0.585); 
+}
+
+.deportes:hover {
+    background-color:rgba(137, 43, 226, 0.503); 
+}
+
+
+
+.ver-mas-btn {
+    margin: 2cm 0;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 10px 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: fit-content; 
+}
+
+.ver-mas-btn:hover {
+    background-color:blueviolet; 
+}

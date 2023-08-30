@@ -1,0 +1,24 @@
+.contact {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.contact h4 {
+  text-align: center;
+  padding: 10px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact button {
+  display: block;
+  margin: 0 auto;
+}
